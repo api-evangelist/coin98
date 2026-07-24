@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.coin98.com/developer-guide/coin98-adapter
+notes: >-
+  Client-side, embeddable UI components shipped by Coin98 for dApp wallet
+  connection. Distinct from the server-side/SDK libraries in packages/ —
+  these render a prebuilt wallet-connect modal and button into a React app.
+families:
+  - family: Wallet Connect UI
+    description: >-
+      Prebuilt React wallet-connection surface — a connect button and a
+      multi-wallet selection modal driven by the Coin98 wallet adapter.
+    loader: "@coin98-com/wallet-adapter-react-ui"
+    components:
+      - name: WalletModalProvider
+        kind: react-component
+        description: Context provider that mounts the wallet-selection modal.
+      - name: WalletMultiButton
+        kind: react-component
+        description: Prebuilt connect / connected-account button.
+    hooks:
+      - name: useWallet
+        source: "@coin98-com/wallet-adapter-react"
+        description: Wallet connection state (accounts, connected, connect/disconnect).
+      - name: useWalletModal
+        source: "@coin98-com/wallet-adapter-react-ui"
+        description: Open/close control for the wallet-selection modal.
+    docs: https://docs.coin98.com/developer-guide/coin98-adapter

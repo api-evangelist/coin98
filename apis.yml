@@ -1,8 +1,30 @@
 aid: coin98
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coin98.png
 name: Coin98
-description: 'Coin98 is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Coin98 is a crypto super-app built around a non-custodial, multi-chain wallet
+  spanning 80+ blockchains across iOS, Android, a Chrome browser extension,
+  Telegram, and web. Its product surface includes the Coin98 Super Wallet, an
+  AI wallet with autonomous agents (Cypheus), the SwapX DEX aggregator routing
+  across 50+ DEXs, on-chain perpetual futures (Coin98 Perps), the Fusion Visa
+  debit card, PowerPool C98 staking, the Zen hardware card, Coin98 Markets data,
+  and a token distribution Vault. For developers, Coin98 publishes a Developer
+  Guide and the Coin98 Adapter — a React/Next.js wallet-connection SDK with
+  useWallet and useWalletModal hooks and prebuilt connect UI — plus a Connect
+  SDK and Telegram Mini App SDK, integrating dApps with the wallet across 40+
+  chains. Surfaced originally as a multicoin-capital portfolio company and
+  enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/coin98/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto Web3
+- Cryptocurrency Wallet
+- DeFi
+- Blockchain
+- Web3
+- Wallet SDK
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://coin98.com
+- type: Documentation
+  url: https://docs.coin98.com
+- type: DeveloperPortal
+  url: https://docs.coin98.com/developer-guide
+- type: APIReference
+  url: https://docs.coin98.com/developer-guide/coin98-adapter
+- type: GettingStarted
+  url: https://docs.coin98.com/developer-guide/coin98-adapter/setup-coin98-adapter-for-react
+- type: Blog
+  url: https://coin98.com/blog
+- type: GitHubOrganization
+  url: https://github.com/coin98
+- type: Packages
+  url: packages/coin98-packages.yml
+- type: SDKs
+  url: packages/coin98-packages.yml
+- type: Components
+  url: components/coin98-components.yml
+- type: LLMsTxt
+  url: llms/coin98-llms.txt
+- type: DomainSecurity
+  url: security/coin98-domain-security.yml
+- type: WellKnown
+  url: well-known/coin98-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,59 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/coin98-com
+notes: >-
+  First-party Coin98 developer libraries published under the official
+  @coin98-com npm scope, covering dApp wallet connection (Connect SDK,
+  wallet adapter for React), the Telegram Mini App connect SDK, and the
+  Aptos wallet-adapter plugin. Coin98 exposes no public REST API; the
+  developer surface is client-side wallet integration for 40+ chains.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/connect-sdk"
+    version: 1.1.0
+    url: https://www.npmjs.com/package/@coin98-com/connect-sdk
+    install: npm install @coin98-com/connect-sdk
+    description: Coin98 Connect SDK — multi-chain wallet and DeFi connection gateway.
+    repository: https://github.com/coin98/connect-sdk
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/wallet-adapter-react"
+    version: 0.1.73
+    url: https://www.npmjs.com/package/@coin98-com/wallet-adapter-react
+    install: npm install @coin98-com/wallet-adapter-react
+    description: React integration for the Coin98 Wallet adapter (useWallet / useWalletModal hooks).
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/wallet-adapter-react-ui"
+    version: 0.1.73
+    url: https://www.npmjs.com/package/@coin98-com/wallet-adapter-react-ui
+    install: npm install @coin98-com/wallet-adapter-react-ui
+    description: Prebuilt React UI (wallet-connect modal + button) for the Coin98 Wallet adapter.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/wallet-adapter-coin98"
+    version: 0.1.73
+    url: https://www.npmjs.com/package/@coin98-com/wallet-adapter-coin98
+    install: npm install @coin98-com/wallet-adapter-coin98
+    description: Coin98 wallet connector for the wallet-adapter React framework.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/telegram-connect-sdk"
+    version: 0.0.7
+    url: https://www.npmjs.com/package/@coin98-com/telegram-connect-sdk
+    install: npm install @coin98-com/telegram-connect-sdk
+    description: Connect SDK for the Coin98 Telegram Mini App wallet.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@coin98-com/aptos-wallet-adapter-plugin"
+    version: 1.0.0
+    url: https://www.npmjs.com/package/@coin98-com/aptos-wallet-adapter-plugin
+    install: npm install @coin98-com/aptos-wallet-adapter-plugin
+    description: Coin98 Extension plugin for the Aptos Wallet Adapter.
+    official: true

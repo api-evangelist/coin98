@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+host: https://coin98.com
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the primary host.
+  No discovery documents are published (all 404 / unreachable). Recorded as
+  valid negative evidence.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 000
+  - path: /.well-known/ai-plugin.json
+    status: 404
